@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div>
+                <input type="text" id="display" style="width: 217px;height: 40px; margin-bottom: 10px"> 
+            </div>  
+            <div>
+                <input type="button" value="C" class="op" onclick="btnClear()">
+                <input type="button" value="/" class="op" onclick="btnDivide()">
+                <input type="button" value="*" class="op" onclick="btnMultiply()">
+                <input type="button" value="<" class="op" onclick="btnBack()">
+            </div>
+            <div>
+                <input type="button" value="7" class="btnNum" onclick="btn7()">
+                <input type="button" value="8" class="btnNum" onclick="btn8()">
+                <input type="button" value="9" class="btnNum" onclick="btn9()">
+                <input type="button" value="-" class="op" onclick="btnSubtract()">
+            </div>
+            <div>
+                <input type="button" value="4" class="btnNum" onclick="btn4()">
+                <input type="button" value="5" class="btnNum" onclick="btn5()">
+                <input type="button" value="6" class="btnNum" onclick="btn6()">
+                <input type="button" value="+" class="op" onclick="btnAdd()">
+            </div>
+            <div>
+                <input type="button" value="1" class="btnNum" onclick="btn1()">
+                <input type="button" value="2" class="btnNum" onclick="btn2()">
+                <input type="button" value="3" class="btnNum" onclick="btn3()">
+                <input type="button" value="%" class="op" onclick="btnModule()">
+            </div>
+            <div>
+                <input type="button" value="0" class="btnNum" onclick="btn0()">
+                <input type="button" value="." class="btnNum" onclick="btnDecimal()">
+                <input type="button" value="=" class="op1" onclick="btnEql()">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
